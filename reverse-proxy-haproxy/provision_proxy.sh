@@ -9,7 +9,7 @@ mkdir -p /etc/haproxy/certs
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
   -keyout /etc/haproxy/certs/proxy.key \
   -out    /etc/haproxy/certs/proxy.crt \
-  -subj "/C=IT/ST=Emilia-Romagna/L=Bologna/O=Lab/CN=proxy.local"
+  -subj "/C=IT/ST=Roma/L=Roma/O=Lab/CN=proxy.local"
 
 cat /etc/haproxy/certs/proxy.crt /etc/haproxy/certs/proxy.key > /etc/haproxy/certs/proxy.pem
 chmod 600 /etc/haproxy/certs/proxy.pem
