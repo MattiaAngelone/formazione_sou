@@ -25,11 +25,11 @@ chmod +x regex.sh
 ## Esempi di output
 
 ```
-8.8.8.8        -> PUBBLICO, Classe A
-192.168.1.10   -> PRIVATO, Classe C
-127.0.0.1      -> LOOPBACK
-255.255.255.255-> BROADCAST
-300.1.1.1      -> indirizzo non valido
+8.8.8.8        -> è un indirizzo PUBBLICO di Classe A
+192.168.1.10   -> è un indirizzo PRIVATO di Classe C
+127.0.0.1      -> è un indirizzo di LOOPBACK
+255.255.255.255-> è un indirizzo di BROADCAST
+300.1.1.1      -> non è un indirizzo ip valido
 ```
 
 ## Come funziona la validazione
