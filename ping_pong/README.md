@@ -13,7 +13,7 @@ sul nodo "scarico", rimbalzando da un nodo all'altro.
 
 ## Come funziona
 
-![Architettura del progetto ping pong](architettura.svg)
+![Architettura del progetto ping pong](architettura.png)
 
 Installazione di `doker` all'interno dei nodi tramite Vagrantfile.
 
